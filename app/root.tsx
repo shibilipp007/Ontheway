@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./tailwind.css";
 
 export const links: LinksFunction = () => [
